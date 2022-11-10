@@ -18,3 +18,5 @@ const login = (e) => {
     };
 };
 console.log(userName);
+
+loginForm.addEventListener('submit', (e) => login(e));
