@@ -21,7 +21,6 @@ const login = (e) => {
   } else {
     alert("Error, enter your user name");
   }
-  console.log(userName);
 };
 
 const sendMessage = (e) => {
