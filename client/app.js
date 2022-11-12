@@ -1,6 +1,4 @@
-// const socket = io();
 const loginForm = document.getElementById("welcome-form");
-// ^^"username"??
 const messagesSection = document.getElementById("messages-section");
 const messagesList = document.getElementById("messages-list");
 const addMessageForm = document.getElementById("add-messages-form");
@@ -48,7 +46,6 @@ function addMessage(author, content) {
       </div>
     `;
   messagesList.appendChild(message);
-  ///???
 }
 
 addMessageForm.addEventListener("submit", (e) => sendMessage(e));
